@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'helloworld.db'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "django_hello",
+        'USER': "django",
+        'PASSWORD': 'django_password',
+        'HOST': 'localhost',
+        'PORT': 3306
     }
 }
 

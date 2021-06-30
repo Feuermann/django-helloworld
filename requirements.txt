@@ -1,2 +1,4 @@
-# requirements.txt file
 Django==2.2.3
+mysqlclient==2.0.3
+pytz==2021.1
+sqlparse==0.4.1
